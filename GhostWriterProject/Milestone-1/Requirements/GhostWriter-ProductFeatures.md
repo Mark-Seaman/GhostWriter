@@ -27,7 +27,7 @@ be applied to accelerate the development.
 
 **Reader Experience** - Readers can use the Ghost Writer app directly to read published 
 material.
-**Direct Editing Experience** - Author can use Ghost Writer alone to edit the content.
+**Direct Editing Experience** - Authors can use Ghost Writer alone to edit the content.
 **Instant Publication** - Tools within GhostWriter provide painless publication in less
 than one minute.
 **Writing Assistant** - ChatGPT is integrated and useful for Ideation, Outlining, Drafting
