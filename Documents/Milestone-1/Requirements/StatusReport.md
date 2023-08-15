@@ -1,7 +1,3 @@
-# Milestone 1 - Requirements 
-
-Gather the initial requirements to set project scope.
-
 
 ## What I did for Milestone 1
 
