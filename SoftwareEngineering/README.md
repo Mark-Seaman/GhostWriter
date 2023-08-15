@@ -1,4 +1,4 @@
-# Software Engineering Skills Course
+# Ghost Writer Project
 
 Training class in Software Engineering Skills.
 

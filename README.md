@@ -1,24 +1,19 @@
-# Software Engineering
+# Ghost Writer Project
 
-Training class in Software Engineering Skills.
-
-This repo contains three main components
-
-
-## Software Engineering Skills - [Lessons and assignments](SoftwareEngineering/README.md)
-
-* 7 Milestones (each with 4 Lessons)
-* Milestone Assignments
-* ChatGPT Prompts
+This project is intended to demonstrate Software Engineering Skills by building a real-world 
+application.   The project is done in seven Milestones, with each Milestone carefully 
+documented. 
 
 
-## Ghost Writer - [Project notes](GhostWriterProject/README.md)
+## Ghost Writer - [Project notes](Documents/README.md)
 
-* Project notes for example of documentation
+* Milestone Documents
 * Deliverables for each milestone
+* ChatGPT Prompts
+* Project notes for example of documentation
+* Follow this example to build your application.
 
-
-## Ghost Writer - [Application code](GhostWriterApp/README.md)
+## Ghost Writer - [Application code](Application/README.md)
 
 * Application code for software project
-* Provided as an example
+* Provided as an example for you to follow
