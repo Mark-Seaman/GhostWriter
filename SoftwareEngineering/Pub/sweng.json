@@ -1,0 +1,16 @@
+{
+    "name": "sweng",
+    "site_title": "SoftwareEngineering",
+    "site_subtitle": "Practical Software Development",
+    "url": "/sweng",
+    "title": "Shrinking World Solutions",
+    "css": "/static/css/shrinking-world.css",
+    "doc_path": "Documents/Shrinking-World-Pubs/SoftwareEngineering/Book",
+    "image_path": "/static/images/Shrinking-World-Pubs/SoftwareEngineering",
+    "description": "The road to faster, cheaper, better software",
+    "cover_image": "/static/images/Shrinking-World-Pubs/SoftwareEngineering/Cover.png",
+    "menu": "static/js/nav_sw.json",
+    "pub_type": "private",
+    "auto_index": true,
+    "simple_index": true
+}
