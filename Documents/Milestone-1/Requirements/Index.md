@@ -26,6 +26,7 @@
     * What will I do?
     * What challenges do I have?
     * Engineering investment
+    * 5-minute Video Demo
 * [AI Playbook](AI.md)
     * Write a project charter for the Ghost Writer app
     * Requirements gathering process for Milestone 1
