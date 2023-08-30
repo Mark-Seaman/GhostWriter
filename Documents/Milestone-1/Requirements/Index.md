@@ -16,21 +16,19 @@
 
 **Ghost Writer Project Charter**
 
-* [Project Charter]({{ github }}/Requirements/)
-    * [Project Objectives]({{ github }}/Requirements/Objectives.md)
-    * [Project Scope]({{ github }}/Requirements/Scope.md)
-    * [Stakeholders]({{ github }}/Requirements/Stakeholders.md)
-    * [Timeline and Budget]({{ github }}/Requirements/Budget.md)
-* [Engineering Report]({{ github }}//Requirements/Report)
+* [Project Charter](Index.md)
+    * [Project Objectives](Objectives.md)
+    * [Project Scope](Scope.md)
+    * [Stakeholders](Stakeholders.md)
+    * [Timeline and Budget](Budget.md)
+* [Engineering Report](Report.md)
     * What did I do?
     * What will I do?
     * What challenges do I have?
     * Engineering investment
-* [AI Playbook]({{ github }}//Requirements/AI)
+* [AI Playbook](AI.md)
     * Write a project charter for the Ghost Writer app
     * Requirements gathering process for Milestone 1
     * Job Description for Project Manager
     * Draft the functional requirements for Ghost Writer
-* [Client Feedback]({{ github }}//Requirements/Feedback)
-    * Make sure to add "Mark-Seaman" as a collaborator to your project
-    * Instructor will update this page in your Github repo to supply feedback
+
