@@ -27,7 +27,6 @@ This repo contains three main components
 [Project Milestone 1](../Documents/Milestone-1/Index.md)
 
 
-
 ## Code Snippets
 
 views.py

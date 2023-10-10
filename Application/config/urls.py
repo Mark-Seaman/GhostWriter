@@ -1,7 +1,8 @@
 from django.urls import path
 
-from publish.views import HelloWorldView
+from publish.views import DocView, HelloWorldView
 
 urlpatterns = [
-    path('', HelloWorldView.as_view(), name='hello'),
+    path('hello', HelloWorldView.as_view(), name='hello'),
+    path('', DocView.as_view(), name='doc')
 ]
