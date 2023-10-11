@@ -11,7 +11,7 @@ class DocViewTest(TestCase):
         path = Path('README.md')
         self.assertTrue(path.exists())
         text = path.read_text()
-        self.assertEqual(len(text), 2832)
+        self.assertEqual(len(text), 733)
         self.assertEqual(text.split('\n')[0],
                          '# Ghost Writer Application Code')
 
@@ -19,7 +19,7 @@ class DocViewTest(TestCase):
         text = Path('README.md').read_text()
         lines = text.split('\n')
         self.assertEqual(lines[0], '# Ghost Writer Application Code')
-        self.assertEqual(len(lines), 99)
+        self.assertEqual(len(lines), 28)
 
     def test_hello_view(self):
         response = self.client.get('/hello')
@@ -31,8 +31,14 @@ class DocViewTest(TestCase):
 
     def test_doc_view(self):
         response = self.client.get('/')
-        title = 'Document Display View'
-        self.assertContains(response, title)
+        title1 = 'Document Display View'
+        self.assertContains(response, title1)
+
+    def test_markdown_view(self):
+        response = self.client.get('/')
+        self.assertEqual(response.status_code, 200)
+        text = response.content.decode('utf-8')
+        self.assertIn('Ghost Writer Application Code', text)
 
 
 class DocDataTest(TestCase):
@@ -63,3 +69,33 @@ class DocDataTest(TestCase):
         Doc.objects.create(path='xxx')
         Doc.objects.all().delete()
         self.assertEqual(len(Doc.objects.all()), 0)
+
+
+class MarkdownTest(TestCase):
+
+    def test_markdown_paragraph(self):
+        text = markdown('xxx')
+        self.assertEqual(text, '<p>xxx</p>')
+
+    def test_markdown_heading(self):
+        text = markdown('# Heading Title')
+        self.assertEqual(text, '<h1>Heading Title</h1>')
+
+    def test_markdown_list(self):
+        text = '''
+* item 1
+* item 2
+* item 3
+'''
+        expected = '''<ul>
+<li>item 1</li>
+<li>item 2</li>
+<li>item 3</li>
+</ul>'''
+        text = markdown(text)
+        self.assertEqual(text, expected)
+
+    def test_links(self):
+        text = '[Link Text](url)'
+        text = markdown(text)
+        self.assertEqual(text, '<p><a href="url">Link Text</a></p>')

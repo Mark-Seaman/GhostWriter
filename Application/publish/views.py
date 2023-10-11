@@ -13,3 +13,8 @@ class HelloWorldView(View):
 
 class DocView(TemplateView):
     template_name = 'doc.html'
+
+    def get_context_data(self, **kwargs):
+        text = Path('README.md').read_text()
+        kwargs['doc'] = markdown(text)
+        return super().get_context_data(**kwargs)
