@@ -22,6 +22,8 @@ This repo contains three main components
 * m2
 * m3
 
-## Milestone 1 Documents
+## Milestone Documents
 
 [Project Milestone 1](../Documents/Milestone-1/Index.md)
+
+[Project Milestone 2](../Documents/Milestone-2/Index.md)
